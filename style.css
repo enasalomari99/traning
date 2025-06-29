@@ -1,0 +1,71 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(to bottom, #f7f9fc, #e0ecf8);
+}
+.header {
+  background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.cta-btn {
+  font-size: 18px;
+  margin: 10px;
+}
+.section-title {
+  color: #0d6efd;
+  margin-top: 40px;
+  border-bottom: 2px dashed #0d6efd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.price-tag {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #28a745;
+  margin-top: 10px;
+}
+footer {
+  background-color: #e3e3e3;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 40px;
+  color: #555;
+}
+.faq-question {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.feature-list li, .faq-list li {
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: "✅ ";
+  padding-right: 20px;
+}
+.emoji-title {
+  font-size: 1.5rem;
+}
+.highlight-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease-in-out;
+}
+.highlight-box.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.highlight-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+section:first-of-type {
+  margin-top: 60px;
+}
